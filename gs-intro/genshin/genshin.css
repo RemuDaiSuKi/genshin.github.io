@@ -1162,7 +1162,8 @@ body {
     width: 0px;
     position: absolute;
     margin-left: -10px;
-    margin-top: 640px;
+    /*margin-top: 640px;*/
+    margin-bottom: 180px;
     z-index: 2;
 }
 
