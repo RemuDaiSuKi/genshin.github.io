@@ -1,0 +1,1692 @@
+body{
+    font-family: 微軟正黑體!important;
+}
+
+h1{
+    color:rgb(4, 11, 23);
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+img {
+    width: 1500px;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    
+    background: linear-gradient(120deg, #46a3ff, #93ff93);
+    margin-bottom: 0;
+    /* The image used */
+    /*background-image: url("../images/fullmetal_alchemist.jpg"); /*第一點是指當前資料夾 第二個是指往前一個*/
+    /* Full height  ../images/pngtree-watercolor-fantasy-background-printing-picture-image_561220.jpg*/
+    /*height: 100%;
+    /* Center and scale the image nicely */
+    /*background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+/*header start*/
+.logo
+{
+    margin-left: -70px;
+    height: 110px;
+    width: 200px;
+}
+.menu_bar
+{   
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.5); /*003d79*/
+    height: 110px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    z-index: 2;
+}
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+}
+.menu_bar ul li{
+    font-size: 1.1em;
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a{
+    color:white;
+    font-size: 2em;
+    transition: background-color 0.5s;
+    filter: brightness(100%);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu_bar ul li a:hover{
+    text-shadow: 0 0 30px #80ffff; 
+    filter: brightness(150%);
+}
+/*header end*/
+
+/*pictures roll loop start*/
+.container{
+    max-width: 100%;
+}
+.imgroll{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    height:115vh;
+    overflow: hidden;
+}
+.imgroll_pic{
+    position: absolute;
+    width:80%;
+    height: 95vh;
+    z-index: 0;
+    object-fit: cover;
+    margin-top: 5.625rem;
+    transition: top 0.01s cubic-bezier(0,1.22,.43,.71);
+    
+}
+.loop1{
+    animation: loop1 30s  infinite;
+    transform: scale(1); 
+}
+.loop2{
+    animation: loop2 30s  infinite;
+    transform: scale(1);
+
+}
+.loop3{
+    animation: loop3 30s  infinite;
+    transform: scale(1);
+
+}
+.loop4{
+    animation: loop4 30s  infinite;
+    transform: scale(1);
+
+}
+.loop5{
+    animation: loop5 30s infinite;
+    transform: scale(1);
+
+}
+.loop6{
+    animation: loop6 30s infinite;
+    transform: scale(1);
+
+}
+.loop7{
+    animation: loop7 30s infinite;
+    transform: scale(1);
+
+}
+.loop8{
+    animation: loop8 30s infinite;
+    transform: scale(1);
+
+}
+@keyframes loop1{
+    0%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    12.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    100%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+}
+@keyframes loop2{
+    0%{
+        opacity:0;
+        transform: scale(1);
+    }
+    12.5%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    25%{
+        opacity:0;
+        transform: scale(1);
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loop3{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    25%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    37.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loop4{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+        transform: scale(1);
+    }
+    37.5%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    50%{
+        opacity:0;
+        transform: scale(1);
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loop5{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    50%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    62.5%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loop6{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+        transform: scale(1);
+    }
+    62.5%{
+        opacity: 0.8;
+        transform: scale(1.28);
+    }
+    75%{
+        opacity:0;
+        transform: scale(1);
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loop7{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    75%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    87.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loop8{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+        transform: scale(1);
+    }
+    87.5%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    100%{
+        opacity:0;
+        transform: scale(1);
+    }
+}
+
+#rolltxt{
+    top:0px;
+    z-index: 1;
+    font-size: 5vw;
+    display:block;
+    margin:auto;
+    position:relative;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: black 1px , 1px , 20px;
+    font-family: Mulish, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    transition: top 0.05s cubic-bezier(0,1.22,.43,.71);
+    text-align: center;
+    text-shadow: 0 0 10px hsl(0, 0%, 27%), 
+    0 0 20px hsl(0, 8%, 31%),
+    0 0 80px hsl(0, 8%, 31%),
+    0 0 120px hsl(0, 8%, 31%); 
+    
+}
+
+
+.scroll_animation{
+    width: 100vw;
+    z-index: 3;
+    display:flex;
+    justify-content:space-between;
+    background-image: none ;
+    position:absolute;
+    opacity: 1;
+    transition: background-image 7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+}
+.scroll_ani_pic{
+    height: 5vh;
+    z-index: 3;
+    position: absolute;
+    transition: left 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll_before::before{
+    content:'';
+    height: 5vh;
+    width:var(--scrollSize);
+    max-width: 100vw;
+    background-color :hsl(0, 0%, 27%);
+    position:absolute;
+    transition: width 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll_ani_pic_2{
+    height: 5vh;
+    z-index: 3;
+    position: absolute;
+    transition: right 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll_after::after{
+    content:'';
+    height: 5vh;
+    right:0;
+    width:var(--scrollSize);
+    max-width: 100vw;
+    background-color :hsl(0, 0%, 27%);
+    position:absolute;
+    transition: width 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+/*pictures roll loop end*/
+
+/*introduction1 start*/
+.introduction1{
+    display: flex;
+}
+
+.titles{
+    padding-left: 7px;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.vr{
+    border-left: medium solid #000;
+    height: 500px;
+    left: 50%;
+    position: absolute;
+}
+
+.mihoyo_logo_pic{
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 40%;
+    height: 50%;
+    display: flex;
+}
+#i1{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*introduction1 end*/
+
+.introduction2{
+    display: flex;
+}
+.hr{
+    width: 90%;
+    height: 2px;
+    background-color: black;
+}
+
+.open_world_pic{
+    margin-right: 100px;
+    margin-top: 100px;
+    width: 40%;
+    height: 50%;
+    display: flex;
+}
+#i2{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+.scrollContainer2{
+    max-width: 100%;
+}
+.page2roll{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 115vh;
+    overflow: hidden;
+}
+.scrollImage{
+    position: absolute;
+    width: 80%;
+    height: 95vh;
+    object-fit: cover;
+    margin-top: 5.625rem;
+    transition: top 0.01s cubic-bezier(0,1.22,.43,.71);
+    z-index: 1;
+}
+.loopA{
+    animation: loopA 15s infinite;
+    transform: scale(1);
+}
+.loopB{
+    animation: loopB 15s infinite;
+    transform: scale(1);
+}
+.loopC{
+    animation: loopC 15s infinite;
+    transform: scale(1);
+}
+.loopD{
+    animation: loopD 15s infinite;
+    transform: scale(1);
+}
+.loopE{
+    animation: loopE 15s infinite;
+    transform: scale(1);
+}
+.loopF{
+    animation: loopF 15s infinite;
+    transform: scale(1);
+}
+.loopG{
+    animation: loopG 15s infinite;
+    transform: scale(1);
+}
+.loopH{
+    animation: loopH 15s infinite;
+    transform: scale(1);
+}
+
+
+@keyframes loopA{
+    0%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    12.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    100%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+}
+@keyframes loopB{
+    0%{
+        opacity:0;
+        transform: scale(1);
+    }
+    12.5%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    25%{
+        opacity:0;
+        transform: scale(1);
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loopC{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    25%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    37.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loopD{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+        transform: scale(1);
+    }
+    37.5%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    50%{
+        opacity:0;
+        transform: scale(1);
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loopE{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    50%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    62.5%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    75%{
+        opacity:0;
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loopF{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+        transform: scale(1);
+    }
+    62.5%{
+        opacity: 0.8;
+        transform: scale(1.28);
+    }
+    75%{
+        opacity:0;
+        transform: scale(1);
+    }
+    87.5%{
+        opacity:0;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loopG{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    75%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    87.5%{
+        opacity:0;
+        transform: scale(1);
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes loopH{
+    0%{
+        opacity:0;
+    }
+    12.5%{
+        opacity:0;
+    }
+    25%{
+        opacity:0;
+    }
+    37.5%{
+        opacity:0;
+    }
+    50%{
+        opacity:0;
+    }
+    62.5%{
+        opacity: 0;
+    }
+    75%{
+        opacity:0;
+        transform: scale(1);
+    }
+    87.5%{
+        opacity:0.8;
+        transform: scale(1.28);
+    }
+    100%{
+        opacity:0;
+        transform: scale(1);
+    }
+}
+
+
+.scroll_animation{
+    width: 100vw;
+    z-index: 3;
+    display:flex;
+    justify-content:space-between;
+    background-image: none ;
+    position:absolute;
+    opacity: 1;
+    transition: background-image 7s cubic-bezier(0.075, 0.82, 0.165, 1);
+    overflow: hidden;
+}
+.scroll_ani_pic{
+    height: 5vh;
+    z-index: 3;
+    position: absolute;
+    transition: left 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll_before::before{
+    content:'';
+    height: 5vh;
+    width:var(--scrollSize);
+    max-width: 100vw;
+    background-color :hsl(0, 0%, 27%);
+    position:absolute;
+    transition: width 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll_ani_pic_2{
+    height: 5vh;
+    z-index: 3;
+    position: absolute;
+    transition: right 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.scroll_after::after{
+    content:'';
+    height: 5vh;
+    right:0;
+    width:var(--scrollSize);
+    max-width: 100vw;
+    background-color :hsl(0, 0%, 27%);
+    position:absolute;
+    transition: width 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+
+/*第一段介紹*/
+.paragraph1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 100px;
+    height: 350px;
+    position: relative;
+
+}
+.circle1 h1{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.circle1{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-left: 100px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+
+}
+.words1{
+    display: flex;
+    width: 750px;
+    height: 230px;
+    background-color: whitesmoke;
+
+    z-index: 0;
+    position: absolute;
+    margin-left: 250px;
+
+}
+.words1 p{
+    position: relative;
+    left: 20%;
+    width: 600px;
+    text-align: left;
+
+
+}
+
+/*第二段介紹*/
+.paragraph2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 0px;
+    height: 350px;
+    position: relative;
+
+}
+.circle2 h1{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.circle2{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-right: 100px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+
+}
+.words2{
+    display: flex;
+    width: 750px;
+    height: 280px;
+    background-color: whitesmoke;
+
+    z-index: 0;
+    position: absolute;
+    margin-right: 250px;
+
+}
+.words2 p{
+    position: relative;
+    left: 2%;
+    width: 590px;
+    text-align: left;
+
+
+}
+
+
+/*第三段介紹*/
+.paragraph3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    margin-top: 0px;
+    height: 350px;
+    position: relative;
+
+}
+.circle3 h1{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.circle3{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    margin-left: 100px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+
+}
+.words3{
+    display: flex;
+    width: 750px;
+    height: 250px;
+    background-color: whitesmoke;
+
+    z-index: 0;
+    position: absolute;
+    margin-left: 250px;
+
+}
+.words3 p{
+    position: relative;
+    left: 21%;
+    width: 590px;
+    text-align: left;
+
+
+}
+
+
+
+/*大致介紹*/
+
+.pray{
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(165deg, #00008b, #add8e6);
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+    margin-top: -110px;
+}
+
+/*左半邊*/
+#cloud1{
+    width: 300px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-left: -50px;
+    margin-top: 670px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+#cloud2{
+    width: 800px;
+    height: 180px;
+    background-color: whitesmoke;
+    margin-left: -230px;
+    margin-top: 800px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-10deg);
+}
+#cloud3{
+    width: 200px;
+    height: 180px;
+    background-color: whitesmoke;
+    margin-left: 300px;
+    margin-top: 735px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+
+/*右半邊*/
+#cloud4{
+    width: 500px;
+    height: 70px;
+    background-color: whitesmoke;
+    margin-left: 850px;
+    margin-top: 670px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud5{
+    width: 180px;
+    height: 370px;
+    background-color: whitesmoke;
+    margin-left: 1170px;
+    margin-top: 420px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-3deg);
+}
+#cloud6{
+    width: 400px;
+    height: 150px;
+    background-color: whitesmoke;
+    margin-left: 930px;
+    margin-top: 600px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+#cloud7{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-left: 990px;
+    margin-top: 570px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+}
+#cloud8{
+    width: 300px;
+    height: 150px;
+    background-color: whitesmoke;
+    margin-left: 1000px;
+    margin-top: 570px;
+
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-20deg);
+}
+
+.sky {
+    border-color: transparent #97cbff #97cbff transparent;
+    border-style: solid solid solid solid;
+ 
+    /* 設定邊框（上、下；左、右）大小相同的數值，可拼湊出任意形狀的三角形 */
+    border-width: 180px 680px;
+ 
+    /* 設定 width、height 可更好理解原理 */
+    height: 0px; 
+    width: 0px;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 640px;
+    z-index: 2;
+}
+
+#cloud9{
+    width: 600px;
+    height: 35px;
+    background-color: #c4e1ff;
+    margin-left: 235px;
+    margin-top: 890px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud10{
+    width: 570px;
+    height: 100px;
+    background-color: #c4e1ff;
+    margin-left: 670px;
+    margin-top: 830px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud11{
+    width: 500px;
+    height: 50px;
+    background-color: #c4e1ff;
+    margin-left: 850px;
+    margin-top: 750px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+
+
+
+.star{
+    transform: scale(20);
+    
+    position: absolute;
+    margin-top: 750px;
+    margin-left: 700px;
+    z-index: 4;
+
+}
+.star_tail{
+    
+    transform: scale(55) rotate(-90deg);
+
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 290px;
+    z-index: 3;
+    
+}
+
+.bridge{
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    background: linear-gradient(#97cbff, #bbffbb);
+    z-index: 2;
+    overflow: hidden;
+}
+
+#cloud12{
+    width: 250px;
+    height: 20px;
+    background-color: #c4e1ff;
+    margin-left: -50px;
+    margin-top: 30px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud13{
+    width: 400px;
+    height: 70px;
+    background-color: #c4e1ff;
+    margin-left: 60px;
+    margin-top: 30px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud14{
+    width: 230px;
+    height: 50px;
+    background-color: #c4e1ff;
+    margin-left: 270px;
+    margin-top: 50px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud15{
+    width: 180px;
+    height: 30px;
+    background-color: #c4e1ff;
+    margin-left: 650px;
+    margin-top: 110px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+
+/*第三頁 底下介紹*/
+
+/*第一段*/
+.story1{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 0px;
+}
+.story1 img{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+    z-index: 4;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-15deg);
+}
+.story1 h1{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 330px;
+    z-index: 5;
+}
+.story1 p{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 250px;
+    z-index: 4;
+}
+
+/*第二段*/
+.story2{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 500px;
+}
+.story2 img{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
+    z-index: 4;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-15deg);
+}
+.story2 h1{
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 90px;
+    z-index: 5;
+}
+.story2 p{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 30px;
+    z-index: 4;
+}
+
+/*第三段*/
+.story3{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 800px;
+}
+.story3 img{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    z-index: 4;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-15deg);
+}
+.story3 h1{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 130px;
+    z-index: 5;
+}
+.story3 p{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 30px;
+    z-index: 4;
+}
+
+/*第四段*/
+.story4{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    margin-top: 1200px;
+}
+.story4 img{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    z-index: 4;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-15deg);
+}
+.story4 h1{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 200px;
+    z-index: 5;
+}
+.story4 p{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: 30px;
+    z-index: 4;
+}
+
+/*行間裝飾用雲*/
+#cloud16{
+    width: 130px;
+    height: 30px;
+    background-color: #c4e1ff;
+    margin-left: 300px;
+    margin-top: 250px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud17{
+    width: 230px;
+    height: 50px;
+    background-color: #c4e1ff;
+    margin-left: 180px;
+    margin-top: 450px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud18{
+    width: 70px;
+    height: 35px;
+    background-color: #c4e1ff;
+    margin-left: 370px;
+    margin-top: 500px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud19{
+    width: 330px;
+    height: 70px;
+    background-color: #c4e1ff;
+    margin-left: 300px;
+    margin-top: 800px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud20{
+    width: 200px;
+    height: 60px;
+    background-color: #c4e1ff;
+    margin-left: 250px;
+    margin-top: 905px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud21{
+    width: 85px;
+    height: 50px;
+    background-color: #c4e1ff;
+    margin-left: 360px;
+    margin-top: 950px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud22{
+    width: 500px;
+    height: 60px;
+    background-color: #c4e1ff;
+    margin-left: -230px;
+    margin-top: 1250px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud23{
+    width: 50px;
+    height: 30px;
+    background-color: #c4e1ff;
+    margin-left: 230px;
+    margin-top: 1150px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud24{
+    width: 370px;
+    height: 130px;
+    background-color: #c4e1ff;
+    left: 70%;
+    margin-top: 270px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud25{
+    width: 700px;
+    height: 50px;
+    background-color: #c4e1ff;
+    left: 35%;
+    margin-top: 430px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud26{
+    width: 330px;
+    height: 100px;
+    background-color: #c4e1ff;
+    left: 80%;
+    margin-top: 900px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud27{
+    width: 300px;
+    height: 30px;
+    background-color: #c4e1ff;
+    left: 75%;
+    margin-top: 1050px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud28{
+    width: 150px;
+    height: 70px;
+    background-color: #c4e1ff;
+    left: 72%;
+    margin-top: 1090px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud29{
+    width: 120px;
+    height: 50px;
+    background-color: #c4e1ff;
+    left: 55%;
+    margin-top: 1175px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#cloud30{
+    width: 250px;
+    height: 150px;
+    background-color: #c4e1ff;
+    left: 85%;
+    margin-top: 1700px;
+
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    transform: rotate(-15deg);
+}
+#slime{
+    width: 300px;
+    height: 200px;
+    margin-top: 1650px;
+    margin-left: 1000px;
+    z-index: 3;
+    transform: rotate(-15deg);
+}
+
+
+.guide{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 670px;
+}
+.guide img{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+.guide h1{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left: 63%;
+    color: white;
+    text-align: left;
+    font-size: 500%;
+}
+
+.sum_title1{
+    font-size: 2.5em;
+}
+.sum_title2{
+    font-size: 2.5em;
+}
+
+.sum_part1{
+    width: 100%;
+}
+.sum_part1 p{
+    width: 1000px;
+    margin-left: 150px;
+}
+.sum_part2{
+    width: 100%;
+}
+.sum_part2 p{
+    width: 1000px;
+    margin-left: 150px;
+}
+
+.windy_words{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+.windy{
+    width: 100%;
+    z-index: 0;
+    top: 0;
+}
+
+
+.windy_words h1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    color: #007979;
+    background-color: rgba(255, 255, 255, 0.5); /* 設置背景顏色及透明度 */
+    padding-bottom: 0px !important; /* 調整文本容器的內邊距 */
+    box-sizing: border-box; /* 盒模型設置 */
+    font-style: italic;
+}
+
+
+
+.official{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #00aeae;
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 100px;
+}
+
+.official img{
+    
+    height: 100px;
+    width: 100px;
+}
+
