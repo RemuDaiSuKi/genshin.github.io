@@ -1155,7 +1155,7 @@ body {
     border-style: solid solid solid solid;
  
     /* 設定邊框（上、下；左、右）大小相同的數值，可拼湊出任意形狀的三角形 */
-    border-width: calc((9vw / 34) * 9) 100vw;/*180px 680px*/
+    border-width: 1800px 6800px;/*180px 680px*/
  
     /* 設定 width、height 可更好理解原理 */
     height: 0px; 
