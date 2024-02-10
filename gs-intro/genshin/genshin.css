@@ -1646,11 +1646,13 @@ body {
 }
 
 .sum1{
+    width:100%;
     display:flex;
     justify-content:center;
     display:inline-block;
 }
 .sum2{
+    width:100%;
     display:flex;
     justify-content:center;
     display:inline-block;
