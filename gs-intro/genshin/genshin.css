@@ -1631,18 +1631,18 @@ body {
 }
 
 .sum_part1{
+    position:relative;
     width: 100%;
 }
 .sum_part1 p{
-    position:relative;
     width: 1000px;
     /*margin-left:150px*/
 }
 .sum_part2{
+    position:relative;
     width: 100%;
 }
 .sum_part2 p{
-    position:relative;
     width: 1000px;
     /*margin-left: 150px;*/
 }
