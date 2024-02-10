@@ -1635,14 +1635,25 @@ body {
 }
 .sum_part1 p{
     width: 1000px;
-    margin-left: 150px;
+    /*margin-left:150px*/
 }
 .sum_part2{
     width: 100%;
 }
 .sum_part2 p{
     width: 1000px;
-    margin-left: 150px;
+    /*margin-left: 150px;*/
+}
+
+.sum1{
+    display:flex;
+    justify-content:center;
+    display:inline-block;
+}
+.sum2{
+    display:flex;
+    justify-content:center;
+    display:inline-block;
 }
 
 .windy_words{
