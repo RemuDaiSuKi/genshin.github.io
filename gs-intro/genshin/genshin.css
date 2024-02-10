@@ -1634,6 +1634,7 @@ body {
     width: 100%;
 }
 .sum_part1 p{
+    position:relative;
     width: 1000px;
     /*margin-left:150px*/
 }
@@ -1641,6 +1642,7 @@ body {
     width: 100%;
 }
 .sum_part2 p{
+    position:relative;
     width: 1000px;
     /*margin-left: 150px;*/
 }
