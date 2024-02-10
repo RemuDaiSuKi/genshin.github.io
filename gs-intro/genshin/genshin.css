@@ -1633,21 +1633,23 @@ body {
 .sum_part1{
     position:relative;
     width: 100%;
+    display:flex;
+    justify-content:center;
 }
 .sum_part1 p{
     position:relative;
     width: 1000px;
-    left:50%;
     /*margin-left:150px*/
 }
 .sum_part2{
     position:relative;
+    display:flex;
+    justify-content:center;
     width: 100%;
 }
 .sum_part2 p{
     width: 1000px;
     position:relative;
-    left:50%;
     /*margin-left: 150px;*/
 }
 
